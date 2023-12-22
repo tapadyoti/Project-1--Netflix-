@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+#first {
+  background-image: url(/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  height: 115vh;
+  width: 100%;
+  position: absolute;
+}
+.layer {
+  height: 115vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.556);
+  position: relative;
+  z-index: 1;
+}
+nav {
+  background-color: rgba(3, 3, 3, 0.222);
+  padding: 25px 179px 15px 179px;
+  position: relative;
+  top: 0px;
+  height: 12vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  z-index: 4;
+}
+nav .navlogo {
+  width: 150px;
+}
+.navbtn .lang {
+  background-color: black;
+  padding: 8px 35px;
+  color: white;
+  border: 1px solid rgb(84, 84, 84);
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  margin-right: 15px;
+}
+.navbtn .sign {
+  background-color: rgb(218, 11, 11);
+  color: white;
+  padding: 8px 19px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+}
+.navbtn .sign:hover {
+  background-color: rgb(152, 18, 18);
+  transition: 0.2s;
+}
+.text-1 {
+  position: relative;
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  margin-top: 170px;
+  align-items: center;
+
+  color: white;
+}
+.text-1 span {
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.text-1 :nth-child(1) {
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+.text-1 :nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.text-1 :nth-child(3) {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.email {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+.email input {
+  color: white;
+  outline: none;
+  padding: 20px 15px;
+  width: 340px;
+  background-color: black;
+  border: none;
+  border: 1px solid rgb(84, 84, 84);
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+.email .btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgb(218, 11, 11);
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+.email .btn:hover {
+  background-color: rgb(152, 18, 18);
+  transition: 0.2s;
+}
+.separation {
+  height: 8px;
+  background-color: rgb(28, 28, 28);
+}
+.sim-sec {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background-color: black;
+  width: 100vw;
+}
+.sim-text {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  gap: 14px;
+}
+.sim-text :nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 2.8rem;
+  color: white;
+}
+.sim-text :nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+}
+#second {
+  height: 80vh;
+  width: 100vw;
+  background-color: black;
+}
+.element-2 {
+  position: relative;
+}
+.element-2 img {
+  width: 550px;
+  position: relative;
+  z-index: 1;
+}
+.element-2 video {
+  width: 403px;
+  top: 85px;
+  right: 93px;
+  position: absolute;
+}
+#third {
+  height: 85vh;
+}
+.element-3 {
+  position: relative;
+}
+.element-3 img {
+  width: 550px;
+}
+.element-3 .card3 {
+  background-color: black;
+  border-radius: 15px;
+  position: absolute;
+  height: 102px;
+  width: 302px;
+  border: 1px solid rgb(112, 110, 110);
+  display: flex;
+  justify-content: space-between;
+  top: 318px;
+  right: 122px;
+}
+.card3 .item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card3 .text {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.text :nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.text :nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  color: blue;
+}
+.card3 img {
+  padding: 10px;
+  width: 80px;
+}
+.card3 span {
+  color: white;
+}
+.card3 .anim {
+  margin-right: 20px;
+  margin-top: 25px;
+  width: 3rem;
+  background: url(images/download-icon.gif);
+  background-repeat: no-repeat;
+  background-size: 3rem;
+}
+#forth {
+  height: 80vh;
+}
+.element-4 {
+  position: relative;
+}
+.element-4 img {
+  width: 90%;
+  position: relative;
+  z-index: 1;
+}
+.element-4 video {
+  position: absolute;
+  width: 370px;
+  top: 43px;
+  right: 178px;
+}
+#fifth {
+  height: 80vh;
+}
+#fifth img{
+  width: 550px;
+}
+#sixth {
+  background-color: black;
+  height: 130vh;
+}
+#sixth h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 70px;
+}
+.boxes {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#sixth .box {
+  padding: 0px 15px;
+  width: 1200px;
+  height: 12vh;
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#sixth .box:hover {
+  background-color: rgb(64, 61, 61);
+  transition: 0.3s;
+}
+.box span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+}
+.box svg {
+  width: 30px;
+  color: white;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 10px;
+}
+.content h4 {
+  margin-top: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+}
+
+footer {
+  height: 55vh;
+  width: 100vw;
+  background-color: black;
+}
+.footer {
+  padding-top: 60px;
+  padding-left: 200px;
+  width: 85vw;
+  height: 50vh;
+  background-color: black;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer h4 {
+  color: rgb(173, 168, 168);
+  grid-column-start: span 4;
+  font-family: "Poppins", sans-serif;
+  font-weight: 40;
+
+  font-size: 1rem;
+}
+.footer button {
+  width: 80px;
+  height: 30px;
+  grid-column-start: span 4;
+  background-color: black;
+  color: rgb(173, 168, 168);
+  border: 1px solid rgb(84, 84, 84);
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+}
+.footer a {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  color: rgb(173, 168, 168);
+}
+.footer p {
+  padding-top: 3px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  color: rgb(173, 168, 168);
+  grid-column-start: span 4;
+}

@@ -1,0 +1,171 @@
+@media screen and (max-width: 1242px) {
+  /* ......................................................First Section............ */
+  #first {
+    height: 80vh;
+  }
+  .layer {
+    height: 80vh;
+  }
+  nav {
+    width: 100vw;
+    justify-content: space-between;
+    padding: 20px 10px;
+  }
+  nav .navlogo {
+    width: 105px;
+    margin-left: 20px;
+  }
+
+  .navbtn .lang {
+    padding: 7px 18px;
+  }
+  .navbtn .sign {
+    padding: 7px 15px;
+  }
+
+  #first .text-1 {
+    width: 80vw;
+    margin-top: 10px;
+  }
+
+  .text-1 span {
+    margin: 8px;
+    text-align: center;
+  }
+  .text-1 :nth-child(1) {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .text-1 :nth-child(2) {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .text-1 :nth-child(3) {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .email {
+    flex-direction: column;
+    align-items: center;
+  }
+  .email input {
+    width: 280px;
+    height: 7vh;
+  }
+  .email .btn {
+    height: 7vh;
+    width: 22vh;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  /* ...........................................similar section................................... */
+  .sim-text {
+    width: 80vw;
+    text-align: center;
+  }
+  .sim-text :nth-child(1) {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .sim-text :nth-child(2) {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  /* ......................................second section................................... */
+  #second {
+    height: 68vh;
+  }
+  .element-2 img {
+    width: 300px;
+  }
+  .element-2 video {
+    width: 217px;
+    top: 47px;
+    right: 63px;
+  }
+  /* .......................................Third Section........................ */
+  #third {
+    height: 70vh;
+    flex-direction: column-reverse;
+  }
+  .element-3 img {
+    width: 350px;
+  }
+  .element-3 .card3 {
+    height: 68px;
+    width: 270px;
+    top: 200px;
+    right: 45px;
+  }
+
+  .card3 img {
+    padding: 10px;
+    width: 60px;
+  }
+  .card3 .anim {
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  /* ...........................Forth Section............................ */
+  .element-4 img {
+    width: 350px;
+  }
+  .element-4 video {
+    width: 228px;
+    top: 22px;
+    right: 72px;
+  }
+  #forth {
+    height: 80vh;
+  }
+  /* ......................................fifth section................... */
+
+  #fifth {
+    flex-direction: column-reverse;
+    height: 70vh;
+  }
+  #fifth img {
+    width: 340px;
+  }
+
+  /* ..........................................sixth section */
+  #sixth{
+    height: 140vh;
+  }
+  #sixth .box {
+    height: 12vh;
+    width: 310px;
+  }
+  #sixth h2 {
+    font-size: 2.1rem;
+  }
+  .content {
+    text-align: center;
+  }
+  .content h4 {
+    width: 280px;
+    font-weight: 400;
+  }
+  /* .......................................Footer................... */
+footer{
+  height: 55vh;
+}
+  .footer {
+    padding-top: 20px;
+    padding-left: 20px;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 55vh;
+  }
+  .footer h4 {
+    font-weight: 500;
+    grid-column-start: span 2;
+  }
+  .footer button {
+    grid-column-start: span 2;
+  }
+  .footer p {
+    grid-column-start: span 2;
+  }
+}
